@@ -8,13 +8,13 @@ Father of 5 cats (Whiskey, Vodka, Bailey, Bourbon and Soju)
 ```javascript
 const speciality = {
   codes: ['Javascript', 'Go', 'C#', 'Python', 'PHP'],
-  fullstacks: ['Nodejs', 'Bajo Framework & Ecosystems', 'Vue', 'Quasar', 'Alpinejs'],
+  frameworks: ['Bajo Framework & Ecosystems', 'Vue', 'Quasar', 'Alpinejs'],
   mobile: ['Flutter', 'React Native'],
   databases: ['SQL', 'MongoDB', 'Elasticsearch', 'CouchDB'],
   stacks: ['Docker', 'Grafana', 'Prometheus'],
   misc: {
     internetOfThings: true,
-    spatialAndMapsEngine: true
+    spatialAndMaps: true
   }
 }
 ```
