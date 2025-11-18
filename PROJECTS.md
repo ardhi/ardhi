@@ -6,8 +6,10 @@ My first project as a Network Engineer involved designing and implementing the c
 
 This encompassed all stages of network engineering, from LAN and VLAN configuration to establishing robust routing protocols between the offices and the Internet. Crucially, the external connectivity utilized dedicated fiber optic cable linked directly to Indonesia's largest state-owned network operator, ensuring high reliability and performance
 
+```
 Year: 1989
 Project: Networking
+```
 
 ## ARCO/BP Network Relocation
 
@@ -18,15 +20,19 @@ As Assistant Project Manager for the ARCO/BP Indonesia office relocation, I over
 - Managing the physical relocation of existing hardware and infrastructure to the new site
 - Ensuring the proper re-establishment and functionality of the vital microwave communication networks
 
+```
 Year: 1999
 Project: Networking
+```
 
-## Domain Registration
+## Domain Registration Service
 
 During the Dotcom boom era, I designed and developed Namadomain.com, pioneering the first real-time domain name registration service in Indonesia when the market standard was a manual process
 
+```
 Year: 2000
 Project: Web Development (PHP, MySQL)
+```
 
 ## Platform Intruder Detection System
 
@@ -39,8 +45,10 @@ This robust system was engineered to meet extreme demands:
 - Integrating all components into a specialized, explosion-proof enclosure designed to withstand extreme weather and certified for use within hazardous areas.
 - Real-time security alerts are transmitted to the headquarters via satellite communication and are monitored live through a specially designed web application accessible via a normal browser.
 
+```
 Year: 2003
 Project: PLC, Sensors, Web Development (Nodejs, Postgresql)
+```
 
 ## Vessel Tracking System
 
@@ -50,5 +58,7 @@ This solution was built on a globally resilient architecture featuring live data
 
 We also pioneered a two-way communication system utilizing existing satellite terminals. This system allowed clients to seamlessly route messages between the web interface, email, SMS, and a custom application embedded in our proprietary on-board device, the PAPS. This capability successfully extended beyond simple chat functionality, enabling advanced features like fish catch reporting and weather report submissions
 
+```
 Year: 2005 - 2016
 Project: SBC, Serial Interface, Web Development (Nodejs, Postgresql, CouchDB, Elasticsearch, RabbitMQ)
+```
