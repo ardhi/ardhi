@@ -79,7 +79,7 @@ The system was deployed across 23 remote ports/locations throughout Indonesia, w
 Furthermore, an advanced version was created for Indonesian government patrol ships. This specialized version included a vessel instrument monitoring dashboard and a live CCTV surveillance system to serve as an additional, vital navigation aid
 
 ```
-Year: 2018
+Year: 2020
 Project: Maps, MQTT, Web Development
 Stack: C#, Nodejs, MySQL, Vue, Maplibre
 ```
