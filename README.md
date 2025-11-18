@@ -11,7 +11,7 @@ const speciality = {
   frameworks: ['Bajo Framework & Ecosystems', 'Vue', 'Quasar', 'Alpinejs'],
   mobile: ['Flutter', 'React Native'],
   databases: ['SQL', 'MongoDB', 'Elasticsearch', 'CouchDB'],
-  stacks: ['Docker', 'Grafana', 'Prometheus'],
+  devOps: ['Barebone', 'Docker', 'K8', 'Grafana', 'Prometheus'],
   misc: {
     internetOfThings: true,
     spatialAndMaps: true
