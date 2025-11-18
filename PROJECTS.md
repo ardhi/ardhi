@@ -1,8 +1,6 @@
 # Past Projects
 
-The following list details significant projects in which I played a key role, either as an independent software developer or part of a collaborative team.
-
-In addition to these major accomplishments, I have contributed to numerous smaller projects across the IT industry, government, and private sectors.
+The following list details significant projects in which I played a key role, either as an independent software developer or part of a collaborative team. In addition to these major accomplishments, I have contributed to numerous smaller projects across the IT industry, government, and private sectors.
 
 ## Habibie Center Network Infrastucture
 
