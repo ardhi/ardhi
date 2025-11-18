@@ -15,7 +15,7 @@ Project: Infrastructure & Networking
 
 ## ARCO/BP Network Relocation
 
-As Assistant Project Manager for the ARCO/BP Indonesia office relocation, I oversaw the end-to-end migration of the company's critical IT infrastructure:
+As Assistant Project Manager for the ARCO/BP Indonesia office relocation project, I oversaw the end-to-end migration of the company's critical IT infrastructure:
 
 - Planning and execution of the new office Local Area Network (LAN) wiring
 - Design, build-out, and provisioning of the new Data Center
