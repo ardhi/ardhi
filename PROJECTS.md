@@ -1,4 +1,8 @@
-# Projects
+# Past Projects
+
+The following list details significant projects in which I played a key role, either as an independent software developer or part of a collaborative team.
+
+In addition to these major accomplishments, I have contributed to numerous smaller projects across the IT industry, government, and private sectors.
 
 ## Habibie Center Network Infrastucture
 
@@ -8,7 +12,7 @@ This encompassed all stages of network engineering, from LAN and VLAN configurat
 
 ```
 Year: 1989
-Project: Networking
+Project: Infrastructure & Networking
 ```
 
 ## ARCO/BP Network Relocation
@@ -22,7 +26,7 @@ As Assistant Project Manager for the ARCO/BP Indonesia office relocation, I over
 
 ```
 Year: 1999
-Project: Networking
+Project: Infrastructure & Networking
 ```
 
 ## Domain Registration Service
@@ -31,7 +35,8 @@ During the Dotcom boom era, I designed and developed Namadomain.com, pioneering 
 
 ```
 Year: 2000
-Project: Web Development (PHP, MySQL)
+Project: Web Development
+Stack: PHP, MySQL
 ```
 
 ## Platform Intruder Detection System
@@ -47,10 +52,11 @@ This robust system was engineered to meet extreme demands:
 
 ```
 Year: 2003
-Project: PLC, Sensors, Web Development (Nodejs, Postgresql)
+Project: PLC, Sensors, Web Development
+Stack: Nodejs, Postgresql
 ```
 
-## Vessel Tracking System
+## Pointrek
 
 I designed and created Pointrek, one of Indonesia's largest vessel tracking systems, supporting live tracking for over 1,000 ships.
 
@@ -60,5 +66,22 @@ We also pioneered a two-way communication system utilizing existing satellite te
 
 ```
 Year: 2005 - 2016
-Project: SBC, Serial Interface, Web Development (Nodejs, Postgresql, CouchDB, Elasticsearch, RabbitMQ)
+Project: SBC, Serial Interface, Message Queue, Web Development
+Stack: Nodejs, Postgresql, CouchDB, SQLite, Elasticsearch, RabbitMQ
+```
+
+## 1Wave
+
+I developed a lightweight, feature-rich vessel and port monitoring system that integrated terrestrial AIS data with RADAR data (ARPA & ECHO) called 1Wave into a single, compact, and modern application.
+
+Key technical components included a custom-built Web Map Service (WMS) server capable of rendering specialized S-63 Electronic Navigational Charts (ENC).
+
+The system was deployed across 23 remote ports/locations throughout Indonesia, with all acquired data securely relayed to the Headquarters via VPN/Internet connections.
+
+Furthermore, an advanced version was created for Indonesian government patrol ships. This specialized version included a vessel instrument monitoring dashboard and a live CCTV surveillance system to serve as an additional, vital navigation aid
+
+```
+Year: 2018
+Project: Maps, MQTT, Web Development
+Stack: C#, Nodejs, MySQL, Vue, Maplibre
 ```
