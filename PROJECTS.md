@@ -86,7 +86,7 @@ Stack: C#, Nodejs, MySQL, Vue, Maplibre
 
 ## Bajo Framework
 
-I designed and created the Bajo Framework, a one-of-a-kind, MIT-licensed backend framework.
+I designed and created the Bajo Framework, a one-of-a-kind, lego-like, MIT-licensed backend framework.
 
 The Bajo Framework is the culmination of my experience and learning across multiple languages (Java, PHP, Node.js, Python, and Go). It is architected around a powerful, easy-to-use, modular, and plug-and-play plugin system that rigorously adheres to the DRY (Don't Repeat Yourself) principle.
 
