@@ -68,6 +68,38 @@ Project: SBC, Serial Interface, Message Queue, Web Development
 Stack: Nodejs, Postgresql, CouchDB, SQLite, Elasticsearch, RabbitMQ
 ```
 
+## Port Monitoring System
+
+I designed and created a comprehensive, end-to-end port monitoring and Vessel Traffic System (VTS) solution deployed across all ports managed by IPC/Pelindo 2.
+
+This highly challenging project involved establishing infrastructure at over 20 remote sites and managing the real-time nature of the data. Key execution steps and components included:
+
+- Erecting 30m high towers to house Furuno Class A AIS receivers. Raw NMEA AIS data was funneled via serial connection to local mini-servers.
+- A custom-developed script was used to decode the NMEA data, perform downsampling, and saved as local archive.
+- Developed a dedicated local application for on-site users to view real-time vessel positions. This application featured critical safety and management functions, including Geofence alerts: For vessel entry/exit, overspeeding, overtime, and boundary crossing; and also implementing CPA (Closest Point of Approach) and TCPA (Time to Closest Point of Approach) functionality
+
+Due to the lack of commercially viable options, I also developed a custom WMS (Web Map Service) server capable of reading and rendering encoded S-63 Electronic Navigational Charts (ENC) from the hydrographic office.
+
+All processed data was securely relayed to the Headquarters (HQ) server, enabling a single, consolidated view of all remote port activities accessible via a standard web browser
+
+```
+Year: 2018
+Project: AIS, Codecs, Message Queue, Web Development
+Stack: Nodejs, SQLite, MySQL, Elasticsearch, MQTT
+```
+
+## Dashboard Monitoring System
+
+I successfully designed and implemented a comprehensive Enterprise Resource Planning (ERP) system for a central law enforcement body in Indonesia.
+
+Due to the confidential nature of the deployment and data, further details regarding the project scope and functional components are restricted.
+
+```
+Year: 2020
+Project: ERP System, Web Development
+Stack: Nodejs, Elasticsearch, Vue
+```
+
 ## 1Wave
 
 I developed a lightweight, feature-rich vessel and port monitoring system that integrated terrestrial AIS data with RADAR data (ARPA & ECHO) called 1Wave into a single, compact, and modern application.
