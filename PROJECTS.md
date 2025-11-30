@@ -58,9 +58,11 @@ Stack: Nodejs, Postgresql
 
 I designed and created Pointrek, one of Indonesia's largest vessel tracking systems, supporting live tracking for over 1,000 ships.
 
-This solution was built on a globally resilient architecture featuring live data synchronization across three major data center regions: Jakarta, Singapore, London and San Francisco
+The system's client base spans major entities, including large private corporations (notably in the Oil and Gas industry) and key government agencies such as Department of Fishery and Department of Marine Transportation.
 
-We also pioneered a two-way communication system utilizing existing satellite terminals. This system allowed clients to seamlessly route messages between the web interface, email, SMS, and a custom application embedded in our proprietary on-board device, the PAPS. This capability successfully extended beyond simple chat functionality, enabling advanced features like fish catch reporting and weather report submissions
+Pointrek's reliability and innovation earned external validation: we were entrusted by USAID to carry out their fishery project in Eastern Indonesia and achieved recognition as a Certified Application Partner (CAP) by Inmarsat.
+
+Pointrek also pioneered a two-way communication system utilizing existing satellite terminals. This system allowed clients to seamlessly route messages between the web interface, email, SMS, and a custom application embedded in our proprietary on-board device, the PAPS. This capability successfully extended beyond simple chat functionality, enabling advanced features like fish catch reporting and weather report submissions.
 
 ```
 Year: 2005 - 2016
@@ -75,8 +77,8 @@ I designed and created a comprehensive, end-to-end port monitoring and Vessel Tr
 This highly challenging project involved establishing infrastructure at over 20 remote sites and managing the real-time nature of the data. Key execution steps and components included:
 
 - Erecting 30m high towers to house Furuno Class A AIS receivers. Raw NMEA AIS data was funneled via serial connection to local mini-servers.
-- A custom-developed script was used to decode the NMEA data, perform downsampling, and saved as local archive.
-- Developed a dedicated local application for on-site users to view real-time vessel positions. This application featured critical safety and management functions, including Geofence alerts: For vessel entry/exit, overspeeding, overtime, and boundary crossing; and also implementing CPA (Closest Point of Approach) and TCPA (Time to Closest Point of Approach) functionality
+- A custom-developed program was used to decode the NMEA data, perform downsampling, and saved as local archive.
+- Developed a dedicated local application for on-site users to view real-time vessel positions. Also featured critical safety and management functions, including Geofence alerts: For vessel entry/exit, overspeeding, overtime, and boundary crossing; and also implementing CPA (Closest Point of Approach) and TCPA (Time to Closest Point of Approach) functionality
 
 Due to the lack of commercially viable options, I also developed a custom WMS (Web Map Service) server capable of reading and rendering encoded S-63 Electronic Navigational Charts (ENC) from the hydrographic office.
 
@@ -84,8 +86,8 @@ All processed data was securely relayed to the Headquarters (HQ) server, enablin
 
 ```
 Year: 2018
-Project: AIS, Codecs, Message Queue, Web Development
-Stack: Nodejs, SQLite, MySQL, Elasticsearch, MQTT
+Project: AIS, Codecs, Message Queue, ENC Maps, Web Development
+Stack: Nodejs, SQLite, MySQL, Elasticsearch, MQTT, C#
 ```
 
 ## Dashboard Monitoring System
@@ -102,17 +104,17 @@ Stack: Nodejs, Elasticsearch, Vue
 
 ## 1Wave
 
-I developed a lightweight, feature-rich vessel and port monitoring system that integrated terrestrial AIS data with RADAR data (ARPA & ECHO) called 1Wave into a single, compact, and modern application.
+I led the development of the next generation of the Port Monitoring System, named 1Wave, delivering significant advancements in data integration and performance.
 
-Key technical components included a custom-built Web Map Service (WMS) server capable of rendering specialized S-63 Electronic Navigational Charts (ENC).
+The core system was enhanced to support multiple data sources, integrating terrestrial AIS with RADAR data (ARPA & ECHO), and incorporating VMS data delivered via Satellite terminals (Orbcomm, Iridium, or Thuraya).
 
-The system was deployed across 23 remote ports/locations throughout Indonesia, with all acquired data securely relayed to the Headquarters via VPN/Internet connections.
+The backend architecture was significantly improved, resulting in a system that is one of the snappiest, most feature-rich, and astonishingly fast solutions available. The UI/UX was thoroughly polished to provide a modern and intuitive experience.
 
-Furthermore, an advanced version was created for Indonesian government patrol ships. This specialized version included a vessel instrument monitoring dashboard and a live CCTV surveillance system to serve as an additional, vital navigation aid
+An advanced version was customized for Indonesian government patrol ships. This specialized build included a vessel instrument monitoring dashboard and a live CCTV surveillance system, functioning as a critical, additional navigation aid.
 
 ```
 Year: 2020
-Project: Maps, MQTT, Web Development
+Project: AIS, Radar, VMS, Maps, MQTT, Web Development
 Stack: C#, Nodejs, MySQL, Vue, Maplibre
 ```
 
@@ -121,6 +123,14 @@ Stack: C#, Nodejs, MySQL, Vue, Maplibre
 I designed and created the Bajo Framework, a one-of-a-kind, lego-like, MIT-licensed backend framework.
 
 The Bajo Framework is the culmination of my experience and learning across multiple languages (Java, PHP, Node.js, Python, and Go). It is architected around a powerful, easy-to-use, modular, and plug-and-play plugin system that rigorously adheres to the DRY (Don't Repeat Yourself) principle.
+
+As of now, I have built four separate sub-frameworks utilizing the Bajo Framework as their base, with a fifth currently in development:
+
+- Dobo DBMS: Delivers a standard access pattern for interacting with various databases, regardless of type (SQL or NoSQL).
+- Waibu Web Framework: A robust web framework built on the Fastify framework, offering the easiest method for serving static assets, RESTful APIs, or traditional multi-page applications.
+- Masohi Messaging: A dedicated messaging platform designed to simplify inter-communication among plugins and external systems.
+- Sumba Biz Suite: A collection of plug-and-play, ready-to-use plugins aimed at simplifying common programming practices, covering areas from site management and user authentication processes to standard business logic.
+- Waika AI Companion: (Currently under development)
 
 The framework's primary goal is to empower developers by allowing them to concentrate solely on writing unique business logic, significantly accelerating the development process and serving as my way of contributing back to the community.
 
